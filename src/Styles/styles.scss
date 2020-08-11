@@ -1,3 +1,17 @@
+@import './sass/setup';
+@import './sass/variables';
+@import './sass/mixin';
+@import './sass/landingpage';
+
 body {
-    background-color: powderblue;
+    background-color: #343A40;
+}
+
+img {
+    display: block;
+}
+
+p  {
+    color: $fontColor;
+    font: 400 1.2rem $bodyFont;
 }
