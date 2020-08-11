@@ -1,12 +1,19 @@
-import React, { Component } from 'react';
-import Styles from './Styles/styles.css';
+import React from 'react';
+import MainController from './Components/Controller/MainController';
+import SideNav from './Components/SideNav/SideNav';
+import Main from './Components/MainProject/Main';
 
-class App extends Component {
-  render() {
-    return(
-      <div>HELLO WORLD</div>
-    );
-  }
+const App = () => {
+  return (
+    <div>
+      <div>
+        <SideNav />
+        <Main />
+      </div >
+      <MainController />
+    </div >
+  )
 }
 
-export default App;
+export default App
+
