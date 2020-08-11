@@ -1,4 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 body {
-  background-color: powderblue;
+  background-color: #343A40;
+}
+
+p {
+  color: #F8F9FA;
+  font: 400 1.2rem "Open Sans", sans-serif;
 }
 /*# sourceMappingURL=styles.css.map */
