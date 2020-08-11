@@ -1,7 +1,13 @@
+@import './sass/setup';
 @import './sass/variables';
+@import './sass/landingpage';
 
 body {
     background-color: #343A40;
+}
+
+img {
+    display: block;
 }
 
 p  {
