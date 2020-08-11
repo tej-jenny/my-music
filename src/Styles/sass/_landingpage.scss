@@ -5,3 +5,21 @@
         color: $styleColor;
     }
 }
+
+.login {
+    @include basicBtn;
+    border-color: $styleColor;
+    color: #fff;
+    box-shadow: 0 0 40px 40px $styleColor inset, 0 0 0 0 $styleColor;
+    transition: all 150ms ease-in-out;
+    margin: 0 auto;
+  
+    &:hover {
+        box-shadow: 0 0 10px 0 $styleColor inset, 0 0 10px 4px $styleColor;
+  }
+  i {
+      font-size: 1.8rem;
+      color: #fff;
+      padding: 0 5px;
+  }
+}
