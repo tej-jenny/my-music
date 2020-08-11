@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
 
-const Home = () => {
-    return (
-        <div>
-            <h1>Home</h1>
-        </div>
-    )
-}
+const Home = ({ logOut }) => {
+  return (
+    <div>
+      <h1>Home</h1>
+      <button className="btn" onClick={() => logOut()}>
+        Log Out
+      </button>
+    </div>
+  );
+};
 
-export default Home
+export default Home;
