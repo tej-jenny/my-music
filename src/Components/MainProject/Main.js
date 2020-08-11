@@ -5,8 +5,11 @@ import Browse from "./Browse";
 const Main = ({ logOut }) => {
   return (
     <div>
+      <button className="btn logout" onClick={() => logOut()}>
+        Log Out
+      </button>
+      <Home />
       <Browse />
-      <Home logOut={logOut} />
     </div>
   );
 };
