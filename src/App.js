@@ -3,7 +3,7 @@ import MainController from "./Components/Controller/MainController";
 import SideNav from "./Components/SideNav/SideNav";
 import Main from "./Components/MainProject/Main";
 import "font-awesome/css/font-awesome.min.css";
-import Auth from './Components/Authenication/Auth';
+import LandingPage from "./Components/Layout/LandingPage";
 
 const App = () => {
   const [userLogIn, setUserLogIn] = useState(false);
@@ -18,8 +18,8 @@ const App = () => {
           </div>
         </div>
       ) : (
-        <Auth loggedIn={() => setUserLogIn(true)} />
-      )}
+          <LandingPage loggedIn={() => setUserLogIn(true)} />
+        )}
     </div>
   );
 };
