@@ -1,6 +1,6 @@
 import React from 'react'
 import Auth from '../Authenication/Auth'
-import Carousel from '../Authenication/Carousel'
+import Carousel from './Carousel'
 
 const LandingPage = ({ loggedIn }) => {
     return (

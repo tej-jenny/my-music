@@ -394,4 +394,8 @@ p {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+.alice-carousel__prev-btn-item {
+  color: #FF8E72;
+}
 /*# sourceMappingURL=styles.css.map */
