@@ -1,10 +1,12 @@
 @import './sass/setup';
 @import './sass/variables';
 @import './sass/mixin';
-@import './sass/landingpage';
+@import './sass/authenication';
+@import './sass/main';
+@import './sass/controllers';
 
 body {
-    background-color: #343A40;
+    background-color: $mainGrey;
 }
 
 img {

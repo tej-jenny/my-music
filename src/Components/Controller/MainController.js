@@ -5,7 +5,7 @@ import Volume from './Volume'
 
 const MainController = () => {
     return (
-        <section>
+        <section className="controllers">
             <div>
                 <PlayButton />
                 <Duration />

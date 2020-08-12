@@ -1,0 +1,42 @@
+.controllers {
+    background-color: $subGrey;
+    text-align: center;
+}
+
+// PlayButton Components
+
+.controlBtn {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 2.5rem;
+    padding: 20px 30px;
+}
+
+// Duration Components 
+
+#timeline {
+    position: relative;
+    margin: 0 auto;
+    width: 92.5%;
+}
+
+.slider {
+    background-color: gray;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 5px;
+    position: relative;
+    width: 100%;
+}
+
+.extraControls {
+    color: #fff;
+    font-size: 1.8rem;
+    margin: 15px 0 0;
+    text-align: center;
+    i {
+        padding: 0 20px;
+        cursor: pointer;
+    }
+}

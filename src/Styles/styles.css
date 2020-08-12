@@ -326,6 +326,52 @@ html {
   outline: 0;
 }
 
+.background {
+  width: 30%;
+  height: 100Vh;
+  background-color: #000;
+}
+
+.controllers {
+  background-color: #212529;
+  text-align: center;
+}
+
+.controlBtn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 2.5rem;
+  padding: 20px 30px;
+}
+
+#timeline {
+  position: relative;
+  margin: 0 auto;
+  width: 92.5%;
+}
+
+.slider {
+  background-color: gray;
+  border-radius: 2px;
+  cursor: pointer;
+  height: 5px;
+  position: relative;
+  width: 100%;
+}
+
+.extraControls {
+  color: #fff;
+  font-size: 1.8rem;
+  margin: 15px 0 0;
+  text-align: center;
+}
+
+.extraControls i {
+  padding: 0 20px;
+  cursor: pointer;
+}
+
 body {
   background-color: #343A40;
 }

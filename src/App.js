@@ -14,8 +14,8 @@ const App = () => {
           <div>
             <Main logOut={() => setUserLogIn(false)} />
             <SideNav />
+            <MainController />
           </div>
-          <MainController />
         </div>
       ) : (
         <Auth loggedIn={() => setUserLogIn(true)} />
