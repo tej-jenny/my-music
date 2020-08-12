@@ -295,6 +295,83 @@ html {
   padding: 0 5px;
 }
 
+.logout {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #FF8E72;
+  border-radius: 0.6em;
+  color: #FF8E72;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.logout:hover, .logout:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.background {
+  width: 30%;
+  height: 100Vh;
+  background-color: #000;
+}
+
+.controllers {
+  background-color: #212529;
+  text-align: center;
+}
+
+.controlBtn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 2.5rem;
+  padding: 20px 30px;
+}
+
+#timeline {
+  position: relative;
+  margin: 0 auto;
+  width: 92.5%;
+}
+
+.slider {
+  background-color: gray;
+  border-radius: 2px;
+  cursor: pointer;
+  height: 5px;
+  position: relative;
+  width: 100%;
+}
+
+.extraControls {
+  color: #fff;
+  font-size: 1.8rem;
+  margin: 15px 0 0;
+  text-align: center;
+}
+
+.extraControls i {
+  padding: 0 20px;
+  cursor: pointer;
+}
+
 body {
   background-color: #343A40;
 }
@@ -306,5 +383,15 @@ img {
 p {
   color: #F8F9FA;
   font: 400 1.2rem "Open Sans", sans-serif;
+}
+
+.sliderimg {
+  border: 8px solid #FF8E72;
+  border-radius: 15px;
+  margin: 100px auto;
+  width: 30%;
+  height: 30%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=styles.css.map */
