@@ -17,3 +17,13 @@ p  {
     color: $fontColor;
     font: 400 1.2rem $bodyFont;
 }
+
+// Alice Carasoul style
+.sliderimg{
+    border: 8px solid $styleColor;
+    border-radius: 15px;
+    margin: 100px auto;
+    width: 30%;
+    height: 30%;
+    object-fit: cover
+}
