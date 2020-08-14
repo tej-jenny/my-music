@@ -1,9 +1,9 @@
 import React from "react";
 
-const Home = ({ logOut }) => {
+const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <h1><i class="fa fa-home" aria-hidden="true"></i>Home</h1>
     </div>
   );
 };

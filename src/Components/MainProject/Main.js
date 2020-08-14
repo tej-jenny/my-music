@@ -9,17 +9,20 @@ const Main = ({ logOut }) => {
   useEffect(() => {   
     console.log("Hello"); 
   });
-  
+
   return (
-    <div>
-      <button className="btn logout" onClick={() => logOut()}>
-        Log Out
-      </button>
-      <Home />
-      <Browse />
-      <SideNav />
+    <main>
+      <div className="split-background">
+        <button className="btn logout" onClick={() => logOut()}>
+          Log Out
+        </button>
+        <div className="clonelogo"><i className="fa fa-spotify" aria-hidden="true"></i>SPOTIFY CLONE</div>
+        <Home />
+        <Browse />
+        <SideNav />
+      </div>
       <MainController />
-    </div>
+    </main>
   );
 };
 
