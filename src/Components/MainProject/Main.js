@@ -16,7 +16,7 @@ const Main = ({ logOut }) => {
         <button className="btn logout" onClick={() => logOut()}>
           Log Out
         </button>
-        <div className="clonelogo"><i className="fa fa-spotify" aria-hidden="true"></i>SPOTIFY CLONE</div>
+        <div className="clonelogo"><i className="fa fa-spotify" aria-hidden="true"></i>My-Music</div>
         <Home />
         <Browse />
         <SideNav />
