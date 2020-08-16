@@ -1,5 +1,50 @@
-.background {
-    width: 30%;
-    height: 100Vh;
+.split-background {
+    width: 20%;
+    height: 100vh;
     background-color: #000; 
+    text-align: center;
+    button {
+        margin: 0 auto;
+    }
+}
+
+//clone logo 
+.clonelogo {
+    color: white;
+    font: 400 1.5rem $styleFont;
+    margin: 15px;
+    i {
+        font-size: 2.5rem;
+        padding: 0 10px;
+    }
+}
+
+// Home/Search Component 
+h1 {
+    color: #ffff;
+    i{
+        padding: 0 10px;
+    }
+}
+
+//playlist component 
+
+h2 {
+    color: #ffff;
+    text-align: left;
+    margin: 100px 20px 0 20px;
+}
+
+.color-icon {
+    text-align: left;
+    i {
+        padding: 0 10px;
+        font-size: 2rem;
+    }
+    .fa-heart {
+        color: #EA3546;
+    }
+    .fa-plus-square {
+        color: #06BEE1;
+    }
 }

@@ -36,3 +36,4 @@ const Auth = ({ loggedIn }) => {
 };
 
 export default Auth;
+
